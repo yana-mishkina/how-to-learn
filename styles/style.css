@@ -94,8 +94,7 @@
   flex-direction: row;
   justify-content: space-between;
   width: 80%;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin: 100px auto 0;
 }
 
 .two-columns__brief {
@@ -194,7 +193,7 @@
 }
 
 .feynman {
-  height: 890px;
+  min-height: 890px;
   background-color: #f2f2f2;
   position: relative;
   margin: 0;
@@ -202,6 +201,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  box-sizing: border-box;
 }
 
 .feynman__title {
@@ -279,6 +279,8 @@
 }
 
 .kaufman__triangle {
+  background-image: url('../images/kaufman-triangle.svg');
+  background-size: cover;
   height: 877px;
   width: 877px;
   position: absolute;
