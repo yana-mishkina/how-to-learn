@@ -6,3 +6,8 @@
   display: flex;
   justify-content: center;
 }
+
+.resources__logo:hover {
+  opacity: 0.6;
+  transition: opacity ease;
+}
